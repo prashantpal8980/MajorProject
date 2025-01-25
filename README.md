@@ -116,24 +116,3 @@ python gen_pose_map_our_smpl.py
 cd .. &  python train.py -s $path_to_data/$subject -m output/{$subject}_stage2 --train_stage 2 --stage1_out_path $path_to_stage1_net_save_path
 ```
 
-## Todo
-
-- [x] Release the reorganized code and data.
-- [x] Provide the scripts for your own video.
-- [ ] Provide the code for real-time annimation. 
-
-## Citation
-
-If you find this code useful for your research, please consider citing:
-```bibtex
-@inproceedings{hu2024gaussianavatar,
-        title={GaussianAvatar: Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians},
-        author={Hu, Liangxiao and Zhang, Hongwen and Zhang, Yuxiang and Zhou, Boyao and Liu, Boning and Zhang, Shengping and Nie, Liqiang},
-        booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-        year={2024}
-}
-```
-
-## Acknowledgements
-
-This project is built on source codes shared by [Gaussian-Splatting](https://github.com/graphdeco-inria/gaussian-splatting), [POP](https://github.com/qianlim/POP), [HumanNeRF](https://github.com/chungyiweng/humannerf) and [InstantAvatar](https://github.com/tijiang13/InstantAvatar).
