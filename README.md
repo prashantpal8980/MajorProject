@@ -4,11 +4,8 @@
 
 
 
-<sup>1</sup>Harbin Institute of Technology <sup>2</sup>Beijing Normal University <sup>3</sup>Tsinghua University
 
-<sup>*</sup>Corresponding author <sup>&nbsp;&nbsp;&nbsp;&dagger;</sup>Work done during an internship at Tsinghua University
 
-### [Projectpage](https://huliangxiao.github.io/GaussianAvatar) · [Paper](https://arxiv.org/abs/2312.02134) · [Video](https://www.youtube.com/watch?v=a4g8Z9nCF-k)
 
 </div>
 
@@ -21,9 +18,6 @@
 
 ## Introduction
 
-We present GaussianAvatar, an efficient approach to creating realistic human avatars with dynamic 3D appearances from a single video. 
-
-![](live_demo/gaussianavatar.gif)
 
 
 ## Installation
